@@ -54,3 +54,23 @@ body{
 .input:focus, .btn:focus{
     outline: 0;
 }
+.container{
+    max-width: 1170px;
+    margin: auto;
+    background-color: #fff;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: rgb(78, 118, 163);
+    padding: 70px;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
