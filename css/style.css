@@ -10,17 +10,17 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0;
+    height: 100%;
 }
 .box{
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 4px 5px rgba(0,0,0,0.5);
-    padding: 30px;
+    margin-left: 100px;
+    padding: 50px;
     text-align: center;
-    max-width: 500px;
+    max-width: 100%;
 } 
-.box img{
-    height: 100%;
-    justify-content: center;
-
+.box  h2{
+    margin: 10px 0 0;
 }
