@@ -52,7 +52,8 @@ body{
 }
 .footer{
     background-color: rgb(78, 118, 163);
-    padding: 70px;
+    padding: 30px;
+    margin-top: 10px;
     max-width: 100%;
     display: flex;
     align-items: center;
