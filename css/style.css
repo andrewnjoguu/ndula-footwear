@@ -27,3 +27,20 @@
     margin: 2rem 0;
     position: relative;
 }
+
+#product .heading::after{
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    height: .3rem;
+    width: 60%;
+    background: #EB4D4B;
+}
+
+#product .product-container{
+    width: 90%;
+}
+
