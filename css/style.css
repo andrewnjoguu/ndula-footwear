@@ -1,83 +1,94 @@
 *{
     font-family: 'Roboto Slab', serif;
 }
+ .heading{
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 4rem;
+     color: blue;
+     padding: 1rem;
+ }
+ .heading{
+     font-size: 3rem;
+ }
 
-#product{
-    display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  width: 100vw;
+ .heading span{
+    text-transform: uppercase;
+    font-size: 4rem;
+    color:yellow;
+
+ }
+
+ .products .box-container{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1.5rem;
+ }
+
+ .products .box-container .box{
+     border: .1rem solid rgba(0,0,0,.1);
+     border-radius: .5rem;
+     text-align: center;
+     position: relative;
+     overflow:hidden;
+     background-color: cornsilk ;
+     flex: 1 1 30rem;
+ }
+
+ .products .box-container .box .content{
+     padding: 1.5rem;
+ }
+ 
+ .products .box-container .box .icons{
+     display: flex;
+     flex-flow: column;
+     position: absolute;
+     top: .5rem; left: 1rem;
+ }
+ 
+ .products .box-container .box .icons a{
+     height: 4.5rem;
+     width: 5rem;
+     line-height: 4.5rem;
+     font-size: 2rem;
+     color: black;
+     border: .1rem solid black;
+     border-radius: 5rem;
+     background: .5rem;
+     background: #fff;
+     margin-top: .5rem;
+ }
+
+ .products .box-container .box .icons{
+     left:1rem
+ }
+ .products .box-container .box .icons a:hover{
+     background: orange;
+     color: #fff;
+}
+.products .box-container .box .content h3{
+    color: black;
+    font-size: 2.5rem;
 }
 
-#product .heading{
-    color: #4834D4;
-    text-align: center;
-    font-size: 3rem;
-    padding-top: 5rem;
-    margin: 2rem 0;
-    position: relative;
+.products .box-container .box .content .price{  
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 1rem 0;
 }
 
-#product .heading::after{
-    content: '';
-    position: absolute;
-    bottom: -1rem;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    height: .3rem;
-    width: 60%;
-    background: #EB4D4B;
+.products .box-container .box .content .price span{  
+    color:orange;
+    font-size: 1.5rem;
+    text-decoration: line-through;
 }
 
-#product .product-container{
-    width: 90%;
+.products .box-container .box .content .stars {
+padding-bottom: 2rem;
 }
 
-#product .product-container .owl-nav .owl-next, #product .product-container .owl-nav .owl-prev{
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    color: #EB4D4B;
-    font-size: 6rem;
-    background: none;
-    border: none;
-    outline: none;
+.products .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: orange;
 }
-
-#product .product-container .owl-nav .owl-next{
-    right: 1rem;
-}
-
-#product .product-container .owl-nav .owl-prev{
-    left: 1rem;
-}
-
-#product .product-container .title{
-    font-size: 3rem;
-    color: #EB4D4B;
-    margin-top: 5rem;
-    margin-left: 6rem;
-}
-
-#product .product-container .product-slider .product-card{
-    height: 40rem;
-    width: 30rem;
-    margin: 2rem auto;
-    -webkit-box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.5);
-            box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.5);
-    border-radius: .5rem;
-    position: relative;
-}
-
