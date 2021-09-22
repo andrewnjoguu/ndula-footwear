@@ -147,6 +147,14 @@ header .icons a:hover{
 
 }
 
+  .home .slide-container{
+      display: none;
+  }
+
+  .home .slide-container.active{
+      display: block;
+  }
+
 
 .home #prev,
 .home #next{
