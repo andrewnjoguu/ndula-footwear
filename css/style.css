@@ -118,13 +118,15 @@ ul{
 @media (max-width:600px){
     .row{
         display: inline-block;
-        flex: calc(1/4);
+        flex: calc(1/2);
         padding: 10px;
     } 
     .footer-col{
         max-width: 400px;
     }
-    
+    .footer-col ul li{
+        list-style: circle;
+    }
 }
 
     
