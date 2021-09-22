@@ -18,3 +18,12 @@
           flex-flow: column;
   width: 100vw;
 }
+
+#product .heading{
+    color: #4834D4;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 5rem;
+    margin: 2rem 0;
+    position: relative;
+}
