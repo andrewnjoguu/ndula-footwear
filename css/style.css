@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: whitesmoke;
   /* contain: content; */
 }
 /* BRANDS */
@@ -20,6 +20,7 @@ h2 {
   font-style: italic;
   text-decoration: underline;
   margin-top: 2rem;
+  font-weight: bolder;
 }
 .logo {
   width: 150px;
@@ -90,6 +91,34 @@ h2 {
   font-size: 13px;
   color: #000000;
 }
+/* ICONS */
+.icons ul {
+  position: absolute;
+  left: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+  transform: translate(-50%, -50%);
+  padding-bottom: 2rem;
+}
+.icons ul li {
+  color: black;
+  list-style: none;
+  font-size: 40px;
+  transition: 2s;
+  flex-direction: row;
+  margin: 0 15px;
+  cursor: pointer;
+  position: relative;
+  contain: content;
+  margin-top: 3rem;
+}
+.icons ul li :hover {
+  transform: translate(0, -10px);
+  background-size: cover;
+}
+
 /* RESPONSIVE SCREEN */
 @media screen and (max-width: 576px) {
   .brands {
