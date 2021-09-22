@@ -6,7 +6,7 @@
 
 body{
     background-color: #fff;
-    margin: 0;
+    margin: 5px;
 }
 .box{
     background-color: #fff;
@@ -50,6 +50,10 @@ body{
 .input:focus, .btn:focus{
     outline: 0;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 .footer{
     background-color: rgb(78, 118, 163);
     padding: 30px;
@@ -62,10 +66,6 @@ body{
     max-width: 100%;
     margin: auto;
     background-color: #fff;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
 }
 ul{
     list-style: none;
@@ -101,3 +101,30 @@ ul{
     background-color: rgba(255,255,255,0.5);
     border-radius: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+    .row{
+        display: inline-block;
+        flex: calc(1/4);
+        padding: 10px;
+    } 
+    .footer-col{
+        max-width: 400px;
+    }
+    
+}
+
+    
