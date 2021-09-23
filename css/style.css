@@ -1,9 +1,10 @@
+/* FONT */
 * {
   font-family: "Roboto Slab", serif;
 }
-
+/* BODY */
 body {
-  background-color: darkslategray;
+  background-color: whitesmoke;
   /* contain: content; */
 }
 /* BRANDS */
@@ -14,82 +15,25 @@ body {
   place-items: center;
 }
 h2 {
-  color: white;
+  color: black;
   height: 100px;
   padding-left: 40%;
   font-style: italic;
   text-decoration: underline;
   margin-top: 2rem;
+  font-weight: bolder;
 }
 .logo {
   width: 150px;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  color: white;
+  color: black;
   font-size: larger;
   text-align: center;
   margin-left: 2rem;
 }
 
-/* PRODUCT CONTAINER */
-.product-container {
-  min-height: 450px;
-  padding: 1rem;
-}
-.products {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 5.5rem;
-  place-items: center;
-}
-.product-item {
-  position: relative;
-}
-.product-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 225px;
-}
-.image img {
-  width: 200px;
-  height: auto;
-  object-fit: contain;
-}
-.item-name {
-  color: white;
-  font-size: 1.2rem;
-}
-.item-price {
-  color: white;
-  font-size: 1rem;
-  font-style: italic;
-  text-decoration: underline;
-}
-.product-card-2 {
-  position: absolute;
-  top: 150px;
-  background: white;
-  padding: 2.5rem;
-  border-radius: 10px;
-  display: flex;
-  /* visibility: hidden;
-  opacity: 0; */
-  flex-direction: column;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
-}
-.product-card:hover .product-card-2 {
-  visibility: visible;
-  opacity: 1;
-}
-.button-sizes button {
-  font-size: 13px;
-  color: #000000;
-}
 /* RESPONSIVE SCREEN */
 @media screen and (max-width: 576px) {
   .brands {
@@ -98,3 +42,4 @@ h2 {
     place-items: center;
   }
 }
+
