@@ -293,6 +293,21 @@ header .icons a:hover{
 
 
 
+@media (max-width:600px){
+    .row{
+        display: inline-block;
+        flex: calc(1/2);
+        padding: 10px;
+    } 
+    .footer-col{
+        max-width: 400px;
+    }
+    .footer-col ul li{
+        list-style: circle;
+    }
+}
+
+    
 
 
 
@@ -348,8 +363,6 @@ header .icons a:hover{
     }
 
 }
-
-
 
 .testimonials{
     padding: 40px 0;
@@ -420,4 +433,110 @@ header .icons a:hover{
         flex: 100%;
         max-width: 100%;
     }
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    margin: 5px;
+}
+.box{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.5);
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+} 
+.box  h2{
+    margin: 10px 0 0;
+}
+.box p{
+    font-weight: bold;
+}
+.box img{
+    width: 100px;
+    max-width: 100%;
+}
+.form-control{
+    position: relative;
+    margin: 30px 0 30px;
+}
+.input{
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.5);
+    font-family: inherit;
+    height: 44px;
+    padding: 12px 12px;
+    width: 100%;
+}
+.btn{
+    background-color: rgb(9, 9, 95);
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    height: 33px;
+    margin-top: 10px;
+}
+.input:focus, .btn:focus{
+    outline: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: rgb(78, 118, 163);
+    padding: 30px;
+    margin-top: 10px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+    background-color: #fff;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    color: rgb(48, 10, 99);
+    text-decoration: none;
+    font-weight: 1300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: rgb(25, 129, 30);
+    padding-left: 10px;
+}
+.footer-col .social-media-links a{
+    display: inline-block;
+    height: 20px;
+}
+.footer-col .social-media-links i{
+    padding-right: 10px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50%;
 }
