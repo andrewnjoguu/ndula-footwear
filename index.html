@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ndula Footwear</title>
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet"   href="css/style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script defer src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- review section starts -->
+    
+    <!-- review section ends -->
+    <header>
+        
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo">N</a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#order">Order</a>
+    </nav>
+
+    <div class="icons">
+        
+       
+        <a href="#" class="fas fa-user"></a>
+
+
+    </div>
+</header>
+
+
+ <section class="home"  id="home">
+   
+     <div class="slide-container active ">
+         <div class="slide">
+          <div class="content">
+            <h1>NDULA FOOTWEAR</h1>
+             <span>NIKE BLUE SHOES</span>
+             <h3>NIKE 35 SHOES</h3>
+             <p>Nike was the first brand to incorporate the blue color on sports shoes and are now a household name in running footwear. This is now available in Ndulaz Footwear.</p>
+             
+           </div>
+           <div class="image">
+               <img src="images/bluenike.jpg" class="shoe" alt="">
+           </div>
+         </div>
+     </div>
+
+     <div class="slide-container">
+        <div class="slide">
+         <div class="content">
+          <h1>NDULA FOOTWEAR</h1>
+            <span>BLACK ADIDAS SHOES</span>
+            <h3>THREE STRIPES NATION</h3>
+            <p>Adidas is not to be left beihind with thir bullish holistic design taking the shoe industry by storm and having the three stripes stay on every piece of the German shoe company.</p>
+            
+          </div>
+          <div class="image">
+              <img src="images/adidas.png" class="shoe" alt="">
+          </div>
+        </div>
+    </div> 
+
+
+
+     <div class="slide-container">
+        <div class="slide">
+         <div class="content">
+          <h1>NDULA FOOTWEAR</h1>
+            <span>RED NIKE SHOES</span>
+            <h3>NIKE HYBRID SHOES</h3>
+            <p>The hybrids are a mix of New York creativity having 10 designers from the Bronx work with Nike's top designers to create foot comfort never see before.</p>
+            
+          </div>
+          <div class="image"> 
+            <img src="images/redimage.png" class="shoe" alt="">  
+          </div>
+        </div>
+    </div> 
+
+
+    
+
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+     
+
+ </section>
+
+
+ <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+  <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-primary" id="show-cart" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button></div>
+  </div>
+</nav>
+
+<!-- Product section starts -->
+<!-- Men's shoes -->
+<section class="products" id="products">
+   <h1 class="heading">Latest<span> Products</span></h1>
+<div class="box-container">
+   <div class="box">
+       
+       <img src="images/last.jpg "alt="">
+     <div class="content">
+        <h3>Nike Airforce retro 1990</h3>
+        <div class="price">KSH 3500<span>KSH 4500</span></div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            
+            </div>
+            <a href="#" data-name="nike" data-price="3500" class="add-to-cart btn btn-primary">add to cart</a>
+
+        
+     </div>
+       
+   </div>
+
+   <div class="box">
+   
+    <img src="images/running-shoe-500x500.jpg" alt="">
+    <div class="content">
+        <h3>LaunchMizuno</h3>
+        <div class="price">KSH 3300<span>KSH 4300</span></div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            </div>
+            <a href="#" data-name="mizuno" data-price="3300" class="add-to-cart btn btn-primary">add to cart</a>
+    </div>
+    
+    
+</div>
+
+<div class="box">
+    
+    <img src="images/new balance.jpg" alt="">
+    <div class="content">
+        <h3>NewBalance</h3>
+        <div class="price">KSH 3000<span>KSH 3500</span></div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            </div>
+            <a href="#" data-name="newBalance" data-price="3000" class="add-to-cart btn btn-primary">add to cart</a>
+    </div>
+
+    
+    
+</div>
+
+<div class="box">
+   
+    <img src="images/images.jpeg" alt="">
+    <div class="content">
+        <h3>Black Knight</h3>
+        <div class="price">KSH 2700<span>KSH 3200</span></div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            </div>
+            <a href="#" data-name="blackKnight" data-price="2700" class="add-to-cart btn btn-primary">add to cart</a>
+    </div>
+
+    
+    
+</div>
+
+
+<div class="box">
+    
+    <img src="images/adi.jpg" alt="">
+    <div class="content">
+        <h3>Adidas Aeorspace</h3>
+        <div class="price">KSH 2100<span>KSH 3500</span></div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            </div>
+            <a href="#" data-name="adidasAeorspace" data-price="2100" class="add-to-cart btn btn-primary">add to cart</a>
+    </div>
+
+</div> 
+
+<div class="box">
+   
+    <img src="images/puma.webp" alt="">
+    <div class="content">
+        <h3>Puma Evospeed</h3>
+        <div class="price">KSH 3500<span>KSH 5500</span></div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            </div>
+            <a href="#" data-name="puma" data-price="3500" class="add-to-cart btn btn-primary">add to cart</a>
+            </div>
+
+    
+</div>
+
+
+
+</div>
+
+</section>
+
+
+<!-- Modal -->
+<div class="modal fade " id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close close-cart" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: $<span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary close-cart" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+  </div> 
+
+
+</div>
+<div class="testimonials">
+     <div class="inner">
+         <h1>Testimonials</h1>
+         <div class="border">
+
+         </div>
+         <div class="row">
+             <div class="col">
+                 <div class="testimonial">
+                     <img src="images/testimonialAnime.jpg" alt="">
+                     <div class="name">Jujutsu Kaisen</div>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                     </div>
+                     <p>The sneakers were extremely comfortable and they go with every outfit! Worthwhile purchase.</p>
+                 </div>
+             </div>
+             <div class="col">
+                 <div class="testimonial">
+                     <img src="images/test123.jpg" alt="">
+                     <div class="name">Gavin Andrew</div>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="far fa-star"></i>
+                     </div>
+                     <p>Satisfied customer. The quality was A1, I've had them for a while now with no creases!</p>
+                 </div>
+             </div>
+             <div class="col">
+                 <div class="testimonial">
+                     <img src="images/test24.jpg" alt="">
+                     <div class="name">Olive Bexy</div>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="far fa-star"></i>
+                     </div>
+                     <p>I absolutley loooveeee the shoes!! They're gorgeous, and very sleek. Hoping they stock women's shoes soon!</p>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+ </div>
+
+    
+    <!-----newsletter section starts---->
+    <div class="box">
+      <img src="images/background.jpg.svg">
+      <h2>Subscribe to our Newsletter</h2>
+      <p>Our weekly newsletter provides you with updates on new items in stock and discounts!</p>
+        <div class="form-control">
+          <input type="email" class="input" placeholder="Enter your email" required>
+          <button class="btn">Subscribe</button>
+        </div>
+    </div> 
+    <!-----newsletter section ends------>
+
+    
+
+    <!------footer section starts------->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="footer-col">
+            <h4>Company Info</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Others</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Additional Help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Payment Options</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Worldwide Shipping</h4>
+            <ul>
+              <li><a href="#">Sneakers</a></li>
+              <li><a href="#">Sandals</a></li>
+              <li><a href="#">Heels</a></li>
+              <li><a href="#">Casual Wear</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-media-links">
+              <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a> <br>
+              <a href="#"><i class="fab fa-twitter"></i>Twitter</a> <br>
+              <a href="#"><i class="fab fa-instagram"></i>Instagram</a> <br>
+              <a href="#"><i class="fab fa-linkedin-in"></i>Linkedin</a> <br>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!------footer section ends--------->
+
+  
+    
+
+
+    <script>
+      $(document).ready(function(){
+       $("#show-cart").click(function(){
+          $("#cart").modal("show");
+        });
+        $(".close-cart").click(function(){
+          $("#cart").modal("hide");
+        });
+      });
+      </script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
